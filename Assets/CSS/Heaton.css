@@ -1,0 +1,1284 @@
+/* Start of xl screen CSS */
+
+
+/* Main Wraper Styles  */
+
+.main-wraper {
+    overflow: hidden;
+   
+
+
+}
+
+/* Header Styles  */
+
+
+.header-wraper {
+    margin-top: 20px;
+
+
+}
+
+.heaton-logo img {
+    width: 150px;
+    margin-left: 0px;
+
+}
+
+.navigation ul li a {
+    color: black;
+    font-size: 18px;
+
+}
+
+
+.navigation:not(.show){
+    display: none;
+}
+
+.button001 {
+    visibility: hidden;
+}
+
+/* Sections' Styles */
+
+
+/* Section 1 CSS  */
+
+.sec1 {
+    padding-top: 80px;
+}
+
+.sec1 .image01 img {
+    width: 650px;
+    margin-left: 0px;
+    border-radius: 350px 200px 300px 450px;
+}
+
+.sec1 .heading01 h1 {
+    padding-bottom: 15px;
+    border-bottom: 4px solid red;
+    width: 400px;
+}
+
+.sec1 .heading01 h3 {
+    padding-top: 5px;
+}
+
+.sec1 .heading01 button {
+    border: none;
+    background: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.sec1 .heading01 button:hover {
+    background-color: darkred;
+}
+
+.sec1 .trustedBy {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Section 1 > Slick CSS  */
+
+.slick1 {
+    background-color: none;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.sec1 .slick1 img {
+    mix-blend-mode: multiply;
+}
+
+/* Section 2 CSS  */
+
+.sec2 {
+    padding-top: 70px;
+    background-color: rgba(128, 128, 128, 0.148);
+
+    margin-bottom: -100px;
+}
+
+.sec2 .h22 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sec2 .principal li {
+
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.sec2 .principal li::marker {
+
+    font-size: 35px;
+    text-align: center;
+    color: red;
+
+}
+
+.sec2 .image2 img {
+    width: 900px;
+    margin-left: -100px;
+}
+
+
+.heading2 .btn {
+    margin-left: -175px;
+    font-size: 20px;
+
+}
+
+.heading2 .btn button {
+
+    border: 2px solid red;
+    padding: 10px 20px;
+    color: red;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+.heading2 .btn button:hover {
+
+    background-color: rgb(255, 0, 0);
+    color: white;
+
+
+}
+
+/* Section 3 > CSS */
+
+.sec3 {
+    background-color: rgb(23, 23, 23);
+    padding-bottom: 50px;
+
+}
+
+.sec3 .reviews {
+    padding-top: 30px;
+    display: flex;
+    color: rgb(232, 230, 230);
+
+}
+
+.google-logo img {
+    border-radius: 50%;
+    width: 80px;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.reviews .stars {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.reviews .stars i {
+    color: red;
+
+}
+
+.reviewsheading {
+    color: white;
+    margin-top: 30px;
+
+
+}
+
+.reviewsheading h3 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+/* Section 3 > Slick CSS  */
+
+.slick2Parent {
+    position: relative;
+}
+
+.slick2 {
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    z-index: 9;
+    box-shadow: 0px 0px 5px 5px rgba(162, 161, 161, 0.367);
+
+}
+
+
+.slick2 span {
+    color: red;
+    padding-bottom: 100px;
+}
+
+
+/* Section 3 > Slick > Arrows CSS */
+
+.arrows {
+    position: absolute;
+    z-index: 10;
+    font-size: 50px;
+    display: flex;
+}
+
+.arrows .next {
+    margin-left: 460px;
+    width: 50px;
+    margin-top: 100px;
+}
+
+.arrows .prev {
+    margin-top: 100px;
+    margin-left: -25px;
+    width: 50px;
+}
+
+.arrows .prev span i,
+.arrows .next span i {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 7px 15px;
+    font-weight: 700;
+}
+
+.arrows .prev span i:hover,
+.arrows .next span i:hover {
+    background-color: darkred;
+}
+
+/* Section 4 CSS */
+
+.sec4 {
+    padding-bottom: 70px;
+}
+
+.sec4 .heading4 {
+    padding-top: 100px;
+
+    padding-right: 150px;
+}
+
+/* Section 4 > Boxes  */
+
+.sec4 .box01 h4 a {
+    color: red;
+}
+
+.sec4 .box01 {
+    box-shadow: 0px 0px 5px 5px rgba(98, 98, 98, 0.148);
+    padding: 20px;
+    margin: 0px 30px;
+    margin-top: 50px;
+
+}
+
+.sec4 .box01 span {
+    color: red;
+}
+
+/* Section 5 CSS  */
+
+.sec5 {
+
+    position: relative;
+    color: white;
+    background-image: url("E:/Code/Project 56 Heaton Rail Australia/Assets/IMG/HEATON BG.webp");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.sec5 .heading5 {
+    padding-top: 100px;
+}
+
+/* Section 5 > Boxes CSS */
+
+.sec5 .boxes2 {
+    color: black;
+    text-align: center;
+}
+
+.sec5 .boxes2 .card01 {
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 5px rgba(98, 98, 98, 0.148);
+    margin: 10px;
+}
+
+.sec5 .boxes2 .card01 i {
+    font-size: 50px;
+    text-align: center;
+
+    color: red;
+}
+
+/* Section 5 > Input Form CSS */
+
+.input-form {
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    padding: 40px;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 5px 5px rgba(98, 98, 98, 0.148);
+}
+
+.input-form input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.input-form input::placeholder,
+.form-control::placeholder {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.form-select {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    height: 200px;
+}
+
+.input-form button {
+    border: none;
+    background: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.input-form button:hover {
+    background-color: darkred;
+}
+
+.input-form h3 {
+    padding-bottom: 10px;
+}
+
+/* Section 5 > Input Form > reCAPTCHA CSS */
+
+.recaptcha-box {
+    border: 2px solid rgba(174, 173, 173, 0.433);
+    margin-right: 330px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.recaptcha-box input {
+    width: 30px;
+    margin-top: 10px;
+}
+
+.recaptcha-box img {
+    width: 50px;
+}
+
+/* Section 6 CSS  */
+
+.sec6 .heading6 h3 {
+    border-bottom: 3px solid red;
+    padding-bottom: 10px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 120px;
+}
+
+.sec6 .heading6 h5 {
+    text-align: end;
+    margin-top: 30px;
+}
+
+.sec6 .image6 img {
+    margin-top: 150px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.heading6 {
+    margin-top: 190px;
+}
+
+/* Footer CSS */
+
+.footer {
+    padding-top: 100px;
+    background-color: rgb(23, 23, 23);
+    color: rgb(230, 230, 230);
+}
+
+.footer h3 {
+    color: white;
+}
+
+.footer .part1 img {
+    width: 200px;
+}
+
+.part1 i {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.part2 span,
+.part3 span,
+.part4 span {
+    text-align: start;
+
+}
+
+.part2 span i,
+.part3 span i,
+.part4 span i {
+    color: red;
+}
+
+.part2 span a,
+.part3 span a,
+.part4 span a {
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+/* Footer > Copyright / Ending CSS */
+
+.footer .copyrightSec {
+    color: rgba(163, 163, 163, 0.71);
+    border-top: 1px solid rgba(128, 128, 128, 0.28);
+    padding: 20px;
+    margin-left: -130px;
+    margin-right: -130px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+
+/* End of xl screen / laptop screen CSS */
+
+
+/* Media Queries CSS  */
+
+@media (max-width:1025px) {
+
+    .sec1 .image01 img {
+        width: 500px;
+        margin-left: 50px;
+        border-radius: 350px 200px 300px 450px;
+    }
+
+    .slick1 {
+        padding: 0px;
+    }
+
+    .principal li {
+        font-size: 15px !important;
+    }
+
+    .principal li::marker {
+        font-size: 20px !important;
+    }
+
+    .image2 {
+        width: 400px;
+        margin: 0px;
+
+    }
+
+    .sec2 .image2 img {
+        width: 616px;
+    }
+
+    .heading2 .btn button {
+        margin-left: 150px;
+    }
+
+    .reviewsheading h3 {
+        font-size: 36px;
+    }
+
+    .slick2 {
+        width: 431px;
+        height: 263px;
+    }
+
+    .arrows .next {
+        margin-left: 391px;
+    }
+
+    .sec4 .box01 {
+        margin: 0px 0px;
+    }
+
+    .sec5 .boxes2 .card01 {
+        width: 217px;
+        margin: 5px;
+        padding: 11px 7px;
+    }
+
+    .input-form {
+        width: 40%;
+        padding-bottom: 0px;
+    }
+
+    /* 
+    .input-form input, .form-select{
+        width: 75%;
+        height: 35px;
+        margin-bottom: 5px;
+    }
+
+    .form-control{
+        height: 100px;
+        width: 75%;
+    } */
+
+    .recaptcha-box {
+        margin-right: 50px;
+    }
+
+    .sec6 .image6 img {
+        margin-top: 188px;
+        width: 443px;
+        margin-left: 15px;
+    }
+
+}
+
+@media (max-width:769px) {
+
+
+    .navigation .nav {
+       display: flex;
+       position: absolute;
+        background-color: rgba(206, 206, 206, 0.38);
+        right: 227px;
+        top: 24px;
+        z-index: 9;
+    }
+
+    .button001 button {
+        background: none;
+        border: none;
+        font-size: 40px;
+        margin-left: 90px;
+        margin-top: 20px;
+
+    }
+
+    .button001 {
+        visibility: visible;
+    }
+
+    
+    .navigation ul li a {
+        border-top: 1px solid rgba(128, 128, 128, 0.28);
+        font-size: 18px;
+    }
+
+    .header-wraper {
+        /* border-bottom: 2px solid rgba(128, 128, 128, 0.567); */
+        padding-top: 20px;
+        margin-top: -12px;
+        padding-bottom: 20px;
+        background-color: rgba(206, 206, 206, 0.38);
+    }
+
+    .heaton-logo img {
+        width: 154px;
+        margin-left: -74px;
+        padding-top: 25px;
+    }
+
+    .navigation .nav {
+
+
+        margin-right: -115px;
+        padding-top: 20px;
+    }
+
+
+    .navigation .nav{
+        display: block;
+    }
+
+
+    .sec1 {
+        padding-top: 55px;
+    }
+
+    .sec1 .image01 img {
+        width: 377px;
+        position: absolute;
+        /* padding-top: 200px; */
+        left: 100px;
+        /* top: 34px; */
+        margin-top: -297px;
+        margin-left: 256px;
+        border-radius: 350px 200px 300px 450px;
+    }
+
+    .heading01 {
+        margin-left: -80px;
+        width: 348px;
+    }
+
+    .heading01 h1 {
+        width: 280px !important;
+        font-size: 27px;
+    }
+
+    .heading01 h3 {
+        width: 280px !important;
+        font-size: 20px;
+    }
+
+    .trustedBy {
+        font-size: 13px !important;
+    }
+
+    .heading2 h3,
+    .heading2 p {
+        margin-left: -80px;
+        margin-right: -80px;
+    }
+
+    .btn {
+        margin-left: -300px !important;
+    }
+
+    .image2 img {
+        margin-left: 84px !important;
+        width: 577px !important;
+        margin-top: -53px;
+    }
+
+    .sec3 .reviews,
+    .sec3 .reviewsheading {
+        margin-left: -80px;
+    }
+
+    .sec3 .reviewsheading h3 {
+        font-size: 27px;
+    }
+
+    .slick2 {
+        top: -39px;
+        width: 337px;
+        height: 326px;
+    }
+
+    .arrows .next {
+        margin-left: 295px;
+    }
+
+    .heading4 h3 {
+        margin-left: -80px;
+        margin-top: 53px;
+    }
+
+    .heading4 p {
+        margin-left: -80px;
+        margin-right: -220px;
+    }
+
+    .heading5 {
+        padding-top: 50px !important;
+    }
+
+    .heading5 h3 {
+        color: black;
+    }
+
+    .sec4 .box01 {
+        margin: 5px -80px;
+    }
+
+    .sec5 .boxes2 .card01 {
+        margin: 0px 15px 15px 0px;
+    }
+
+    .sec5 .boxes2 .card01 i {
+        font-size: 27px;
+    }
+
+    .sec5 .boxes2 .card01 h4 {
+        font-size: 20px;
+    }
+
+    .sec5 .boxes2 .card01 p {
+        font-size: 13px;
+    }
+
+    .boxes2 {
+        margin-left: 50px;
+    }
+
+
+
+    .input-form {
+        position: static;
+        width: 100%;
+
+
+    }
+
+    .input-form .input-only {
+        display: flex;
+        gap: 10px;
+    }
+
+    .input-form .input-only input {
+        width: 50%;
+    }
+
+    .form-control {
+        height: 70px;
+    }
+
+    .recaptcha-box {
+        margin-right: 175px;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+    .heading6 {
+        margin-top: 68px;
+        margin-right: -106px;
+    }
+
+    .sec6 .image6 img {
+        margin-top: 53px;
+        width: 443px;
+        margin-left: -208px;
+    }
+
+
+
+}
+
+
+
+/* XXXXXXXXXXXXXXX */
+
+
+@media(min-width:769px){
+
+    .button1 #hamburgerbtn{
+         display:none;
+     }
+
+     .navigation{
+         display:flex !important;
+     }
+
+     /* .navigation .nav{
+         display: block;
+     } */
+
+ }
+
+@media (max-width:426px){
+
+.heaton-logo img{
+    margin-left:11px;
+}
+
+
+.button001 #hamburger{
+    position: absolute;
+    top: -5px;
+    left: 267px;
+
+}
+
+ .sec1 .image01 img{
+    position: static;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 11px;
+}
+
+.heading01{
+    margin-left: 0px;
+    width: 400px;
+    text-align: center;
+}
+
+.heading01 h1, .heading01 h3{
+    margin-left: 66px;
+}
+.heading01 button{
+margin-bottom: 20px;
+margin-left: 20px;
+}
+
+.heading01 p{
+    margin: 0px 20px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.heading2 .h21, .heading2 .h22, .heading2 p{
+    margin: 0px 10px;
+}
+
+.heading2 .h21{
+    margin-bottom: 20px;
+    
+}
+
+.principal{
+    margin-left: 2px;
+}
+
+.heading2 .btn{
+    margin-left: 0px !important;
+    z-index: 2;
+}
+
+.heading2 .btn button{
+    margin-left: 0px;
+}
+
+.sec2 .image2 img{
+    
+    margin-top: 13px;
+width: 337px !important;
+
+
+}
+
+.sec3 .reviews {
+    margin-top: 54px;
+    margin-left: 43px;
+}
+
+.sec3 .reviewsheading{
+    margin-left: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.slick2{
+    top: -56px;
+    left: 45px;
+    height: 273px;
+}
+
+.arrows{
+    margin-left: 32px;
+    margin-top: -55px;
+}
+
+.slick2 p{
+    font-size: 13px;
+}
+
+.sec4{
+    padding: 33px;
+}
+
+.heading4 h3{
+    margin-top: 107px;
+    margin-left: 20px;
+}
+
+.heading4 p{
+   margin-left: 20px;
+   margin-right: -132px;
+}
+
+.sec4 .box01{
+
+    margin: 10px 30px;
+    font-size: 14px;
+}
+
+.box01 h4{
+    font-size: 18px;
+}
+
+.heading5{
+    padding-top: 32px !important;
+}
+
+.heading5 h3{
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.sec5 .boxes2{
+    margin-left: 24px;
+}
+.sec5 .boxes2 .card01{
+    margin: 10px;
+    width: 170px;
+}
+.sec5 .boxes2 .card01 h4{
+   font-size: 17px;
+}
+
+.input-form{
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 28px;
+    padding: 17px;
+}
+
+.input-form input{
+    border: 1px solid rgba(128, 128, 128, 0.257);
+    height: 35px;
+}
+
+
+.input-form button{
+    padding: 6px 13px;
+    font-size: 13px;
+}
+.form-select{
+    height: 35px;
+}
+
+.input-form input::placeholder, .form-control::placeholder{
+    font-size: 15px
+}
+.recaptcha-box{
+    margin-right: 150px;
+    font-size: 14px;
+}
+
+.recaptcha-box img{
+    width: 30px;
+}
+
+.recaptcha-box input{
+    height: 20px;
+}
+
+.sec6 .image6 img{
+    margin-top: 210px;
+    width: 400px;
+margin-left: -140px;
+}
+
+.heading6{
+    text-align: end;
+    margin-left: -30px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.heading6 h3{
+    margin-left: 30px;
+    text-align: center;
+}
+
+.heading6 .p6{
+    margin-left: -100px;
+}
+.heading6 p{
+    font-size: 14px;
+}
+
+.footer-wraper{
+    margin-left: 20px;
+}
+
+
+.footer h3{
+    margin-top: 30px;
+
+}
+
+.footer .copyrightSec{
+    margin-top: 47px;
+}
+
+
+
+
+}
+
+
+@media (max-width:376px){
+
+    .button001 #hamburger{
+        left: 217px;
+    }
+
+    .heading01{
+        margin-left: -29px;
+    }
+
+    .sec1{
+        padding-top: 39px;
+    }
+    .sec1 .image01 img{
+        width: 321px;
+        margin-left: 15px;
+    }
+
+    .sec2{
+        padding-top: 31px;
+        margin-bottom: -90px;
+    }
+
+    .principal li{
+        font-size: 12px !important;
+    }
+
+    .sec2 .image2 img{
+        margin-top: -6px;
+        width: 281px !important;
+    }
+
+
+
+    .google-logo img{
+        width: 56px;
+        margin-top: 15px;
+    }
+
+    .sec3 .reviews{
+        margin-left: 75px;
+    }
+    .reviews .stars{
+        font-size: 16px;
+    }
+
+    .sec3 .reviewsheading{
+        padding-bottom: 80px;
+    }
+
+
+    .slick2{
+        width: 293px;
+        height: 290px;
+    }
+
+    .arrows .next{
+        margin-left: 250px;
+    }
+
+    .sec4{
+        padding: 0px;
+    }
+    .sec4 .heading4 {
+        padding-top: 105px;
+        padding-right: 118px;
+    }
+
+    .sec4 .heading4 h3{
+        margin-right: -100px;
+    }
+
+    .sec5 .boxes2{
+        margin-top: 10px;
+        margin-left: 18px;
+    }
+
+    .sec5 .boxes2 .card01{
+        margin: 0px;
+        width: 160px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .input-form{
+        width: 304px;
+        margin-left: 32px;
+    }
+
+    .recaptcha-box{
+        margin-right: 90px;
+    }
+
+    .input-form button{
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width:325px){
+
+    .header-wraper{
+        padding-top: 6px;
+    }
+    .button001 #hamburger{
+        left: 169px;
+        font-size: 32px;
+        top: -14px;
+    }
+
+    .heaton-logo img{
+        width: 127px;
+    }
+
+    .heading01{
+        margin-left: -55px;
+    }
+
+    .sec1 .image01 img{
+        width: 264px;
+    }
+
+    .principal{
+        width: 200%;
+        margin-left: -6px;
+    }
+
+    .principal li{
+        font-size: 10px !important;
+    }
+
+    .principal li::marker{
+        font-size: 15px !important;
+    }
+    .heading2 .btn button{
+        padding: 7px 12px;
+        font-size: 13px;
+    }
+
+    .sec2{
+        margin-bottom: -71px;
+    }
+    .sec2 .image2 img{
+        width: 228px !important;
+    }
+
+    .sec3 .reviews{
+        margin-left: 40px;
+        padding-top: 12px;
+    }
+
+    .slick2 {
+        width: 267px;
+        left: 30px;
+    }
+
+    .arrows .prev{
+        margin-left: -34px;
+    }
+    .arrows .next{
+        margin-left: 211px;
+    }
+
+    .arrows .prev span i, .arrows .next span i{
+        font-size: 16px;
+    }
+
+    .heading4 p{
+        margin-right: -121px;
+        font-size: 13px;
+    }
+    .sec5 .boxes2 .card01{
+        width: 263px;
+    }
+
+
+    .input-form {
+        width: 263px;
+        margin-left: 16px;
+    }
+
+    .recaptcha-box{
+       display: none;
+    }
+
+    .sec6 .image6 img {
+     display: none;
+    }
+
+    .sec6 .heading6 h3{
+        margin-left: 9px;
+    }
+    .sec6 .heading6{
+        text-align: start;
+    }
+
+    .sec6 .heading6 p{
+        font-size: 13px;
+        margin-left: -59px;
+    }
+
+    .sec6 .heading6 h5 {
+        margin-top: 21px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .footer{
+        padding-top: 43px;
+        font-size: 12px;
+    }
+
+    .footer .part1 img{
+        width: 110px;
+    }
+
+    .footer .part1 i{
+        font-size: 17px;
+        padding: 5px;
+    }
+    .footer h3{
+        font-size: 17px;
+       
+    }
+
+    .part2 span a, .part3 span a, .part4 span a{
+        margin-left: 10px;
+    }
+
+    .part2 span, .part3 span, .part4 span{
+        font-size: 15px;
+    }
+
+    .footer .copyrightSec{
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 10px;
+    }
+}
